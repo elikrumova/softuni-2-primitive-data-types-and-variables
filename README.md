@@ -1,2 +1,2 @@
-softuni-2-primitive-data-types-and-variables
-============================================
+1. Primitive-Data-Types-and-Variables
+=====================================
