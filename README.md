@@ -15,8 +15,14 @@ Which of the following values can be assigned to a variable of type float and wh
 Problem 3.	Comparing Floats
 ------
 Write a program that safely compares floating-point numbers with precision eps = 0.000001. Note that we cannot directly compare two floating-point numbers a and b by a==b because of the nature of the floating-point arithmetic. Therefore, we assume two numbers are equal if they are more closely to each other than a fixed constant eps. Examples:
-| Tables        | Are           | Cool  | Cool  |
-| ------------- |:-------------:| -----:| -----:|
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+
+
 |Number a	| Number b |	Equal (with precision eps=0.000001) |	Explanation |
 |5.3	|6.01	|false	|The difference of 0.71 is too big (> eps)|
 |5.00000001	|5.00000003	|true	|The difference 0.00000002 < eps|
